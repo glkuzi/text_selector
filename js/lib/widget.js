@@ -64,7 +64,7 @@ var TSWidgetView = widgets.DOMWidgetView.extend({
   create_controls() {
     let dom_controls = document.createElement("div");
     dom_controls.id = `TSW-widget-${this.widget_id}-controls`;
-    dom_controls.style.display = "inline";
+    dom_controls.style.display = "inline-flex";
 
     let select = document.createElement("span");
     select.classList.add("p-Widget");
